@@ -71,35 +71,51 @@ footer p{
     font-size: 1.5rem;
 }
 
-section {
-    background-color: white;
-    width: 100%;
-}
-
 .main_section{
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 100%;
 }
 
-.main_section_invite{
+.upper_section{
     background: #cae4c2;
     display: flex;
     justify-content: center;
     padding: 5px;
     border-bottom: 2px solid #000;
-    position: absolute; 
-    top: 1;
-    left: 20%;
-    width: 80%; 
-    z-index: 1;
+    border-right: 2px solid #000;
+    width: 100%;
 }
 
-.main_section_time{
+.center_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.right_side{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8cf9d;
+    border-left: #000 2px solid;
+    border-right: #000 2px solid;
+}
+
+.lower_sections{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main_section_info{
     background: #cae4c2;
     display: flex;
-    width: 100%;
     justify-content: center;
     padding: 5px;
     border-top: 2px solid #000;
@@ -108,9 +124,16 @@ section {
 .main_section_image{
     display: flex;
     flex: 1 1 auto;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.main_section_content{
+.main_section_image img {
+    width: 45%; 
+    height: auto;
+}
+
+.main_section_aboutUS{
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
@@ -120,19 +143,6 @@ section {
     align-items: center;
     justify-content: center;
     gap: 10px; 
-}
-
-.coaches_content{
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 10px; 
-    margin-top: 40px;
 }
 
 aside {
