@@ -40,7 +40,7 @@ main {
     justify-content: center;
 }
 
-.lab1_block {
+.lab_block {
     background: #119da4;
     color: #ffffff;
     border-radius: 50px;
@@ -50,36 +50,16 @@ main {
     text-align: center;
 }
 
-.lab1_block h3 a {
+.lab_block h3 a {
     color: #f0f7f4;
     text-decoration: none;
 }
 
-.lab1_block h3 a:hover {
+.lab_block h3 a:hover {
     background-color: #f0f0f0; 
     color: #1f2041;
     border-radius: 40px; 
     padding: 5px;
 }
 
-.lab2_block {
-    background: #119da4;
-    color: #ffffff;
-    border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 400px;
-    text-align: center;
-}
 
-.lab2_block h3 a {
-    color: #f0f7f4;
-    text-decoration: none;
-}
-
-.lab2_block h3 a:hover {
-    background-color: #f0f0f0; 
-    color: #1f2041;
-    border-radius: 40px; 
-    padding: 5px;
-}
