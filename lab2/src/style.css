@@ -9,8 +9,7 @@ main {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    overflow-x: hidden;
-  }
+}
 
 body,
 html {
@@ -21,7 +20,8 @@ html {
     width: 100vw;
     display: flex;
     flex-direction: column;
-  }
+    overflow-y: hidden;
+}
 
 header {
     background-image: url(images/Header-background.png);
