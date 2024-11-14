@@ -176,6 +176,7 @@ aside {
         width: 100%;
         border: none;
         order: 2;
+        padding-top: 20px;
     }
 
     header {
