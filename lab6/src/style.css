@@ -298,6 +298,10 @@ aside {
         margin-left: 5px;
     }
 
+    header h3 {
+        margin-right: 5px;
+    }
+
     .upper_section h1 {
         font-size: 20px;
         margin-left: 50px;
