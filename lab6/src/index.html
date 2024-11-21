@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Candies</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-logo" onclick="toggleMenu()">
+                <img src="images/header-logo.png" alt="header-img">
+            </div>
+            <h3>You want some??</h3>
+        </header>
+
+        <main>
+            <aside class="left_side">
+                <div id="burgerMenu" class="burger-menu">
+                    <button class="close-btn" onclick="toggleMenu()">✖</button>
+                    <nav>
+                        <ul>
+                            <h2>You want to leave? :(</h2>
+                            <li><a href="page2/index.html">Go to page 2</a></li>
+                            <li><a href="../../index.html">Of course</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img src="images/lollipop.png" alt="lolipop">
+            </aside>
+
+            <section class="main_section">
+                <div class="upper_section">
+                    <h1>The best blue lollipops</h1>
+                    <img src="images/Walter-and-Jesse.png" alt="walt-jesse-img" onclick="window.location.href='https://www.youtube.com/watch?v=dy_DASt7hDs&ab_channel=AJM820'">
+                </div>
+                <div class="lower_sections">
+                    <div class="center_section">
+                        <div class="center_section_content">
+                            <form id="dropdownForm" class="dropdownForm">
+                                <div>
+                                    <label for="menuCount">The number of menu items:</label>
+                                    <input type="number" id="menuCount" name="menuCount" min="1" max="10" required><br><br>
+                                </div>
+                            
+                                <div id="menuItems"></div>
+                    
+                                <button class="formButton" type="button" onclick="generateFields()">Generate fields</button>
+                                <button class="formButton" type="button" id="submitButton">Save menu</button>
+                            </form>
+                        </div>
+                        <h3 class="main_section_info">Want to buy some? Follow the instructions above</h3>
+                    </div>
+                    <div class="right_side">
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; All rights reserved!</p>
+            <div>
+                <h2 class="footer_contacts">Our contacts :3</h2>
+                <img src="images/inst.png" alt="instlogo" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';">
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

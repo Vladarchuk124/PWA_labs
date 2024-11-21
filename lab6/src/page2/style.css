@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body,
+html {
+    font-family: 'Fredoka One';
+    background-image: url(../images/body-background.jpg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer and header */
+
+header,
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    padding-top: 10px;
+    color: white;
+    position: fixed
+}
+
+.header-logo img{
+    margin-left: 100px;
+    width: 130px;
+}
+
+header h3 {
+    margin-right: 50px;
+    letter-spacing: 5px;
+}
+
+/*====================*/
+
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 18.3%;
+    height: 100%;
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.burger-menu.active {
+    left: 0;
+}
+
+.burger-menu .close-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.burger-menu nav ul {
+    list-style: none;
+}
+
+.burger-menu nav ul h2 {
+    letter-spacing: 5px;
+}
+
+.burger-menu nav ul li {
+    margin-top: 50px;
+}
+
+.burger-menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.burger-menu nav ul li a:hover {
+    color: #ffda07;
+}
+
+/*====================*/
+
+footer {
+    background-image: url(../images/footer-background.jpg);
+    background-position: center 70%;
+    padding: 80px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+footer div img {
+    height: 40px;
+}
+
+footer div img:hover {
+    cursor: pointer;
+}
+
+/*====================*/
+
+.upper_section {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #3a3a3ae6, #000000);
+    padding-top: 120px;
+    padding-bottom: 50px;
+    width: 100%;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.upper_section h1 {
+    font-family: 'Fredoka One';
+    color: white;
+    align-self: center;
+    font-size: 100px;
+    text-shadow: 6px 6px 6px #000;
+}
+
+.lower_sections {
+    display: flex;
+    flex-direction: row;
+}
+
+/*====================*/
+
+.center_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.center_section_content {
+    background: linear-gradient(to right, #3a3a3ae6, #0f0f0f);
+    box-shadow: inset 10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.center_section_content img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.right_side{
+    width: 20%;
+    display: flex;
+    border-left: #000 2px solid;
+    border-bottom: 2px solid black;
+}
+
+.main_section {
+    width: 100%;
+}
+
+.main_section_info {
+    background-image: url(../images/footer-background.jpg);
+    background-size: 159%;
+    background-position: center 55%;
+    color: white;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-top: 2px solid #000;
+}
+
+aside {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: #000 2px solid;
+    border-bottom: #000 2px solid;
+}
