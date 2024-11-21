@@ -28,9 +28,6 @@ document.getElementById('submitButton').addEventListener('click', async () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
     });
-
-    const result = await response.text();
-    document.getElementById('response').innerText = result;
 });
 
 
@@ -40,4 +37,3 @@ function toggleMenu() {
     const menu = document.getElementById('burgerMenu');
     menu.classList.toggle('active');
 }
-

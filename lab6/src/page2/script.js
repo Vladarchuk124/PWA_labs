@@ -1,5 +1,5 @@
 async function loadMenu() {
-    const response = await fetch('/menu_data.json');
+    const response = await fetch('menu_data.json');
     if (!response.ok) {
         console.error('Failed to load menu data');
         return;
