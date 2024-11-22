@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function task2() {
-        alert("Завдання 2: Розрахунок площі п’ятикутника.");
+        alert("Завдання 2: Розрахунок площі трикутника.");
     
         const block4 = document.querySelector(".upper_main_section");
         const form = document.createElement("form");
